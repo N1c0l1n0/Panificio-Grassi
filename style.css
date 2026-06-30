@@ -142,8 +142,9 @@ img {
 
 .logo-img {
     height: 50px;
-    width: auto;
-    border-radius: 8px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .logo-text {
@@ -454,6 +455,18 @@ img {
 .product-desc {
     color: var(--color-text-light);
     font-size: 0.95rem;
+}
+
+.product-allergens {
+    margin-top: 12px;
+    font-size: 0.85rem;
+    color: var(--color-text-dark);
+    font-style: italic;
+}
+
+.product-allergens strong {
+    font-weight: 600;
+    font-style: normal;
 }
 
 /* ==========================================================================
